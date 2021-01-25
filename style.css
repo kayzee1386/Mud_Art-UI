@@ -1,0 +1,375 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*------------Landing Page---------- */
+
+.header {
+    background-image: url(img/Image.jpg); 
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    overflow: hidden;
+    
+}
+
+.h5 {
+    margin-bottom: 40px;
+}
+
+.container {
+    padding: 2rem 5rem;
+}
+
+.nav-list {
+    float: right;
+    list-style: none;
+    color: #ffffff;
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo {
+    float: left;
+    margin-top: .5rem;
+}
+
+.navigation {
+    padding: 0 2rem;
+}
+
+.heading {
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 25px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.item {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social {
+    position: fixed;
+    top: 70%;
+    left: 90%;
+}
+
+.btn {
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+
+.contact-btn {
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+
+/*............Second page ..........*/
+
+.grid-section{
+    width: 100%;
+    overflow: hidden;
+}
+
+.grid-content {
+    display: grid;
+    max-width: 1500px;
+    margin: 0 auto;
+    column-gap: 100px;
+    padding: 100px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.content {
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
+}
+
+.text {
+    margin-bottom: 80px;
+    font-size: 24px;
+    font-weight: 95;
+    
+}
+
+.text-2 {
+    margin-bottom: 130px;
+    font-size: 14px;
+    
+}
+
+.pix {
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 1rem;
+   margin-right: 10px;
+}
+
+.pix-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.pix-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/*............Thrid page ..........*/
+
+.video-text {
+    top: 100px;
+    text-align: center;
+    padding: 100px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.about {
+    background-image: url(/img/Rectangle\ 15.png);
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.media {
+    padding-bottom: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+.media-img{
+    padding: 0 5px;
+}
+
+.mask {
+    width: 50%;
+}
+
+/*............Fourth page ..........*/
+
+.container2 {
+    
+    display: flex;
+    color: #ffffff;
+    grid-template-columns: 50%;
+    padding-bottom: 70px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.lookup {
+    position: absolute;
+    margin-top: 250px; 
+    left: 90px;
+}
+
+.container3 {
+    background-image: url(img/Rectangle\ 30.png);
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+.lookup-text {
+    width: 20%;
+    position: relative;
+    left: 68%;
+    bottom: 120px;
+}
+
+.about-text {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-size: 64px;
+}
+
+.font {
+    font-size: 14px;
+}
+
+/*............Fifth page ..........*/
+
+.about-mud {
+    width: 10%;
+    left: 68%;
+    bottom: 120px;
+    color: #4f4f4f; 
+    gap: 100px;
+}
+
+.about-together {
+    grid: 50%;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-left: 100px;
+    width: 100%;
+    
+}
+
+.about-mud {
+    float: right;
+    width: 50%;
+    text-align: end;
+    margin-top: 100px;
+    padding-right: 100px;
+
+}
+
+.together {
+    padding-right: 100px;
+}
+
+.vision {
+    background-image: url(/img/dgsavhbdf\ 1.png);
+    color: #ffffff;
+    background-size: cover;
+    height: 660px;
+    display: flex;
+    max-width: 1500px;
+    padding: 100px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.vision-container{
+    position: absolute;
+    left: 60%;
+    margin-top: 150px;
+}
+.vision-text {
+    font-size: 24px;
+}
+
+.p-text {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 50%;
+}
+
+/*............Sixth page ..........*/
+
+.team-member {
+    width: 100%;
+
+    
+}
+
+.team-text {
+    top: 100px;
+    text-align: center;
+    padding: 50px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.team-1 {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+}
+
+.bgd-sixth {
+    margin-top: 110px;
+    margin-bottom: -150px;
+}
+
+.team-2 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.name {
+    margin: 10px; 
+    text-align: center;
+}
+
+.nath {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.dan {
+    font-size: 14px;
+}
+
+.event-text {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.event-font {
+    font-size: 24px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+
+/*............Footer page ..........*/
+
+.footer {
+    background-image: url(/img/Rectangle\ 17.png);
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.address {
+    padding-bottom: 60px;
+}
+
+.class {
+    padding-bottom: 40px;
+}
+
+.copyright {
+    padding-bottom: 40px;
+}
